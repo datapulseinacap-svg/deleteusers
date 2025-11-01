@@ -12,6 +12,7 @@ type Body = {
   status?: string;               // opcional
   metadata?: Record<string, any>;// opcional
   name?: string;                 // opcional
+  password?: string;      
 };
 
 const json = (code: number, body: unknown) => ({
